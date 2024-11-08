@@ -1,5 +1,9 @@
 module AdaGP
 
-# Write your package code here.
+    using JuliaDemoGP
+    
+    include("sample.jl")
 
+    export sample
+    
 end
